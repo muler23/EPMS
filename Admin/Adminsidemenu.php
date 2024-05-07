@@ -50,7 +50,6 @@ if(isset($_SESSION['username'])&&isset($_SESSION['password']))
  black;color: #e4ebe7;width: auto; height: 40px;text-align: center;
  font-size: 1.2em;font-family:
  Times New Roman;margin-bottom: 5px;padding-top: 6px;margin-top: -5px;"><b>ADMIN Links</b></p>
-
 		<div style="color: #fff;height: 45px;"> 
 		<script src="../js/dateandtime.js"></script>
 				<label style="margin-left: 10px;">

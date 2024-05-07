@@ -192,8 +192,8 @@ if(mysql_num_rows($result)>0)
 			echo '<tr>
 					<td>'.$row['cid'].'</td>
 					<td>'.$row['Competencies']. '</td>
-					<td><input type= "text" </td></td>
-					<td id="weights">'.$row['weights']. '</td>
+					<td class ="test"><input type= "text" </td></td>
+					<td class="weights">'.$row['weights']. '</td>
 					<td>'.$row['weighted score']. '</td>
 				</tr>';
 					
@@ -201,6 +201,7 @@ if(mysql_num_rows($result)>0)
 		
 			
 	</table>
+	
 	<script>
 		
 		function multiply(q){
